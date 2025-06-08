@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Калькулятор на TypeScript</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <h1>Калькулятор</h1>
+    <input type="number" id="num1" placeholder="Число 1" />
+    <input type="number" id="num2" placeholder="Число 2 (или пусто)" />
+
+    <div class="buttons">
+      <button data-op="add">+</button>
+      <button data-op="sub">−</button>
+      <button data-op="mul">×</button>
+      <button data-op="div">÷</button>
+      <button data-op="pow">^</button>
+      <button data-op="sqrt">√</button>
+    </div>
+
+    <div id="result">Результат: </div>
+  </div>
+  <script src="main.js"></script>
+</body>
+</html>
